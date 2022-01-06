@@ -1,18 +1,17 @@
 {
-    "name": "gravitymedia/ghostscript",
-    "description": "Ghostscript is an object oriented Ghostscript binary wrapper for PHP.",
+    "name": "julietgar/ghostscript",
+    "description": "Ghostscript is an object oriented Ghostscript binary wrapper for PHP. Forked from https://github.com/GravityMedia/Ghostscript",
     "keywords": [
-        "gravitymedia",
+        "julietgar",
         "ghostscript"
     ],
-    "homepage": "https://github.com/GravityMedia/Ghostscript",
+    "homepage": "https://github.com/julietgar/Ghostscript",
     "license": "MIT",
     "authors": [
         {
-            "name": "Daniel Schröder",
-            "email": "daniel.schroeder@gravitymedia.de",
-            "homepage": "https://github.com/pCoLaSD",
-            "role": "Developer"
+            "name": "Juliet Garcia",
+            "email": "julietgar.duque@gmail.com",
+            "homepage": "https://github.com/julietgar"
         }
     ],
     "require": {
@@ -29,12 +28,12 @@
     },
     "autoload": {
         "psr-4": {
-            "GravityMedia\\Ghostscript\\": "src/"
+            "Julietgar\\Ghostscript\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "GravityMedia\\GhostscriptTest\\": "tests/src/"
+            "Julietgar\\GhostscriptTest\\": "tests/src/"
         }
     },
     "scripts": {
