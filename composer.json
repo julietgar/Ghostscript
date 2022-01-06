@@ -3,11 +3,18 @@
     "description": "Ghostscript is an object oriented Ghostscript binary wrapper for PHP. Forked from https://github.com/GravityMedia/Ghostscript",
     "keywords": [
         "julietgar",
-        "ghostscript"
+        "ghostscript",
+        "pdf"
     ],
     "homepage": "https://github.com/julietgar/Ghostscript",
     "license": "MIT",
     "authors": [
+        {
+            "name": "Daniel Schröder",
+            "email": "daniel.schroeder@gravitymedia.de",
+            "homepage": "https://github.com/pCoLaSD",
+            "role": "Developer"
+        },
         {
             "name": "Juliet Garcia",
             "email": "julietgar.duque@gmail.com",
