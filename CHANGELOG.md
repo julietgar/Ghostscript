@@ -1,24 +1,15 @@
 # Changelog
 
-All Notable changes to `gravitymedia/ghostscript` will be documented in this file.
+All Notable changes to `julietgar/ghostscript` will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-## NEXT - YYYY-MM-DD
+### Added (2022-01-06)
+- PHP 8.0 support
 
-### Added
-- Nothing
+v2.0
 
-### Changed 
-- Nothing
+### Initial release
+- From https://github.com/GravityMedia/Ghostscript
 
-### Deprecated
-- Nothing
+v1.0
 
-### Removed
-- Nothing
-
-### Fixed
-- Nothing
-
-### Security
-- Nothing
