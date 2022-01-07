@@ -25,7 +25,7 @@ $ curl -s https://getcomposer.org/installer | php
 Require the package via Composer:
 
 ```bash
-$ php composer.phar require julietgar/ghostscript
+$ php composer.phar require julietgar/ghostscript:v1.0
 ```
 
 ## Usage
