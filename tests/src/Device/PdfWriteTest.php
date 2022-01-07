@@ -7,6 +7,7 @@
 
 namespace Julietgar\GhostscriptTest\Device;
 
+use Julietgar\Ghostscript\Device\DistillerParameters\ColorConversionTrait;
 use Julietgar\Ghostscript\Device\PdfWrite;
 use Julietgar\Ghostscript\Enum\PdfSettings;
 use Julietgar\Ghostscript\Enum\ProcessColorModel;
@@ -106,6 +107,8 @@ class PdfWriteTest extends TestCase
      */
     public function testPdfSettingsSetterThrowsExceptionOnInvalidArgument()
     {
+        $this->expectExceptionMessage('Invalid PDF settings argument');
+
         $this->createDevice()->setPdfSettings('/foo');
     }
 
@@ -137,6 +140,7 @@ class PdfWriteTest extends TestCase
      */
     public function testProcessColorModelSetterThrowsExceptionOnInvalidArgument()
     {
+        $this->expectExceptionMessage('Invalid process color model argument');
         $this->createDevice()->setProcessColorModel('/foo');
     }
 

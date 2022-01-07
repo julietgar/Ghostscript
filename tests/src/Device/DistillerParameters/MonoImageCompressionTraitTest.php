@@ -7,6 +7,7 @@
 
 namespace Julietgar\GhostscriptTest\Device\DistillerParameters;
 
+use Julietgar\Ghostscript\Device\DistillerParameters\ColorConversionTrait;
 use Julietgar\Ghostscript\Device\DistillerParameters\MonoImageCompressionTrait;
 use Julietgar\Ghostscript\Enum\ImageDownsampleType;
 use Julietgar\Ghostscript\Enum\MonoImageFilter;
@@ -131,6 +132,8 @@ class MonoImageCompressionTraitTest extends TestCase
      */
     public function testMonoImageDownsampleTypeArgumentThrowsException()
     {
+        $this->expectExceptionMessage('Invalid monochrome image downsample type argument');
+
         /** @var MonoImageCompressionTrait $trait */
         $trait = $this->getMockForTrait(MonoImageCompressionTrait::class);
 
@@ -174,6 +177,8 @@ class MonoImageCompressionTraitTest extends TestCase
      */
     public function testMonoImageFilterArgumentThrowsException()
     {
+        $this->expectExceptionMessage('Invalid monochrome image filter argument');
+
         /** @var MonoImageCompressionTrait $trait */
         $trait = $this->getMockForTrait(MonoImageCompressionTrait::class);
 

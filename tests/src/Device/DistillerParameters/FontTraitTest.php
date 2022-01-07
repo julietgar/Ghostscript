@@ -7,6 +7,7 @@
 
 namespace Julietgar\GhostscriptTest\Device\DistillerParameters;
 
+use Julietgar\Ghostscript\Device\DistillerParameters\ColorImageCompressionTrait;
 use Julietgar\Ghostscript\Device\DistillerParameters\FontTrait;
 use Julietgar\Ghostscript\Enum\CannotEmbedFontPolicy;
 use Julietgar\Ghostscript\Enum\PdfSettings;
@@ -102,6 +103,8 @@ class FontTraitTest extends TestCase
      */
     public function testCannotEmbedFontPolicyArgumentThrowsException()
     {
+        $this->expectExceptionMessage('Invalid cannot embed font policy argument');
+
         /** @var FontTrait $trait */
         $trait = $this->getMockForTrait(FontTrait::class);
 
