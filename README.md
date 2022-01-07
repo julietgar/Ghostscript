@@ -11,7 +11,7 @@ Forked from https://github.com/GravityMedia/Ghostscript
 
 This library has the following requirements:
 
- - PHP 7.1+
+ - PHP 8.0+
  - Ghostscript 9.00+
 
 ## Installation
@@ -81,20 +81,6 @@ Run the test suite:
 
 ```bash
 $ php composer.phar test
-```
-
-## Generating documentation
-
-Clone this repository, install Composer and all dependencies:
-
-```bash
-$ php composer.phar install
-```
-
-Generate the documentation to the `build/docs` directory:
-
-```bash
-$ php composer.phar doc
 ```
 
 ## Contributing
