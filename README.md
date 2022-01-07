@@ -1,14 +1,11 @@
 # Ghostscript
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/gravitymedia/ghostscript.svg)](https://packagist.org/packages/gravitymedia/ghostscript)
 [![Software License](https://img.shields.io/packagist/l/gravitymedia/ghostscript.svg)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/GravityMedia/Ghostscript.svg)](https://travis-ci.org/GravityMedia/Ghostscript)
-[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/GravityMedia/Ghostscript.svg)](https://scrutinizer-ci.com/g/GravityMedia/Ghostscript/code-structure)
 [![Quality Score](https://img.shields.io/scrutinizer/g/GravityMedia/Ghostscript.svg)](https://scrutinizer-ci.com/g/GravityMedia/Ghostscript)
-[![Total Downloads](https://img.shields.io/packagist/dt/gravitymedia/ghostscript.svg)](https://packagist.org/packages/gravitymedia/ghostscript)
-[![Dependency Status](https://img.shields.io/versioneye/d/php/gravitymedia:ghostscript.svg)](https://www.versioneye.com/user/projects/54a6c25c27b014d85a000150)
 
 Ghostscript is an object oriented Ghostscript binary wrapper for PHP.
+
+Forked from https://github.com/GravityMedia/Ghostscript
 
 ## Requirements
 
@@ -28,7 +25,7 @@ $ curl -s https://getcomposer.org/installer | php
 Require the package via Composer:
 
 ```bash
-$ php composer.phar require gravitymedia/ghostscript
+$ php composer.phar require julietgar/ghostscript
 ```
 
 ## Usage
@@ -40,7 +37,7 @@ This is a simple usage example how to convert an input PDF to an output PDF.
 require_once __DIR__ . '/vendor/autoload.php';
 
 // Import classes
-use GravityMedia\Ghostscript\Ghostscript;
+use Julietgar\Ghostscript\Ghostscript;
 use Symfony\Component\Process\Process;
 
 // Define input and output files
