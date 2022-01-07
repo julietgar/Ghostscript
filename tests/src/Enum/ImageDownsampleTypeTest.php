@@ -5,17 +5,17 @@
  * @author Daniel Schröder <daniel.schroeder@gravitymedia.de>
  */
 
-namespace GravityMedia\GhostscriptTest\Enum;
+namespace Julietgar\GhostscriptTest\Enum;
 
-use GravityMedia\Ghostscript\Enum\ImageDownsampleType;
+use Julietgar\Ghostscript\Enum\ImageDownsampleType;
 use PHPUnit\Framework\TestCase;
 
 /**
  * The image downsample type enum test class
  *
- * @package GravityMedia\GhostscriptTest\Enum
+ * @package Julietgar\GhostscriptTest\Enum
  *
- * @covers  \GravityMedia\Ghostscript\Enum\ImageDownsampleType
+ * @covers  \Julietgar\Ghostscript\Enum\ImageDownsampleType
  */
 class ImageDownsampleTypeTest extends TestCase
 {

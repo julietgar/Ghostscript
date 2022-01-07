@@ -1,25 +1,25 @@
 <?php
 
-namespace GravityMedia\Ghostscript\Device;
+namespace Julietgar\Ghostscript\Device;
 
-use GravityMedia\Ghostscript\Ghostscript;
-use GravityMedia\Ghostscript\Process\Argument;
-use GravityMedia\Ghostscript\Process\Arguments;
+use Julietgar\Ghostscript\Ghostscript;
+use Julietgar\Ghostscript\Process\Argument;
+use Julietgar\Ghostscript\Process\Arguments;
 use PHPUnit\Framework\TestCase;
 
 /**
  * The inkcov device test class.
  *
- * @package GravityMedia\GhostscriptTest\Devices
+ * @package Julietgar\GhostscriptTest\Devices
  *
- * @covers  \GravityMedia\Ghostscript\Device\Inkcov
+ * @covers  \Julietgar\Ghostscript\Device\Inkcov
  *
- * @uses    \GravityMedia\Ghostscript\Ghostscript
- * @uses    \GravityMedia\Ghostscript\Input
- * @uses    \GravityMedia\Ghostscript\Device\AbstractDevice
- * @uses    \GravityMedia\Ghostscript\Device\NoDisplay
- * @uses    \GravityMedia\Ghostscript\Process\Argument
- * @uses    \GravityMedia\Ghostscript\Process\Arguments
+ * @uses    \Julietgar\Ghostscript\Ghostscript
+ * @uses    \Julietgar\Ghostscript\Input
+ * @uses    \Julietgar\Ghostscript\Device\AbstractDevice
+ * @uses    \Julietgar\Ghostscript\Device\NoDisplay
+ * @uses    \Julietgar\Ghostscript\Process\Argument
+ * @uses    \Julietgar\Ghostscript\Process\Arguments
  */
 class InkcovTest extends TestCase
 {

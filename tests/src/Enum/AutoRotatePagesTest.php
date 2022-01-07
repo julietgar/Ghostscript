@@ -5,17 +5,17 @@
  * @author Daniel Schröder <daniel.schroeder@gravitymedia.de>
  */
 
-namespace GravityMedia\GhostscriptTest\Enum;
+namespace Julietgar\GhostscriptTest\Enum;
 
-use GravityMedia\Ghostscript\Enum\AutoRotatePages;
+use Julietgar\Ghostscript\Enum\AutoRotatePages;
 use PHPUnit\Framework\TestCase;
 
 /**
  * The auto rotate pages enum test class
  *
- * @package GravityMedia\GhostscriptTest\Enum
+ * @package Julietgar\GhostscriptTest\Enum
  *
- * @covers  \GravityMedia\Ghostscript\Enum\AutoRotatePages
+ * @covers  \Julietgar\Ghostscript\Enum\AutoRotatePages
  */
 class AutoRotatePagesTest extends TestCase
 {

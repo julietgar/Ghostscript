@@ -5,17 +5,17 @@
  * @author Simon Schrape <s.schrape@epubli.com>
  */
 
-namespace GravityMedia\Ghostscript\Device;
+namespace Julietgar\Ghostscript\Device;
 
-use GravityMedia\Ghostscript\Ghostscript;
-use GravityMedia\Ghostscript\Process\Arguments;
+use Julietgar\Ghostscript\Ghostscript;
+use Julietgar\Ghostscript\Process\Arguments;
 
 /**
  * The bounding box info device class.
  *
  * @link    http://ghostscript.com/doc/current/Devices.htm#Bounding_box_output
  *
- * @package GravityMedia\Ghostscript\Devices
+ * @package Julietgar\Ghostscript\Devices
  */
 class BoundingBoxInfo extends AbstractDevice
 {

@@ -5,17 +5,17 @@
  * @author Simon Schrape <s.schrape@epubli.com>
  */
 
-namespace GravityMedia\GhostscriptTest\Device\CommandLineParameters;
+namespace Julietgar\GhostscriptTest\Device\CommandLineParameters;
 
-use GravityMedia\Ghostscript\Device\CommandLineParameters\FontTrait;
+use Julietgar\Ghostscript\Device\CommandLineParameters\FontTrait;
 use PHPUnit\Framework\TestCase;
 
 /**
  * The font-related parameters trait test class.
  *
- * @package GravityMedia\GhostscriptTest\Device\CommandLineParameters
+ * @package Julietgar\GhostscriptTest\Device\CommandLineParameters
  *
- * @covers  \GravityMedia\Ghostscript\Device\CommandLineParameters\FontTrait
+ * @covers  \Julietgar\Ghostscript\Device\CommandLineParameters\FontTrait
  */
 class FontTraitTest extends TestCase
 {

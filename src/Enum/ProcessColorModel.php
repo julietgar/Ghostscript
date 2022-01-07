@@ -5,12 +5,12 @@
  * @author Simon Schrape <s.schrape@epubli.com>
  */
 
-namespace GravityMedia\Ghostscript\Enum;
+namespace Julietgar\Ghostscript\Enum;
 
 /**
  * The process color model enum
  *
- * @package GravityMedia\Ghostscript\Enum
+ * @package Julietgar\Ghostscript\Enum
  */
 class ProcessColorModel
 {

@@ -5,17 +5,17 @@
  * @author Daniel Schröder <daniel.schroeder@gravitymedia.de>
  */
 
-namespace GravityMedia\GhostscriptTest\Enum;
+namespace Julietgar\GhostscriptTest\Enum;
 
-use GravityMedia\Ghostscript\Enum\CannotEmbedFontPolicy;
+use Julietgar\Ghostscript\Enum\CannotEmbedFontPolicy;
 use PHPUnit\Framework\TestCase;
 
 /**
  * The cannot embed font policy enum test class
  *
- * @package GravityMedia\GhostscriptTest\Enum
+ * @package Julietgar\GhostscriptTest\Enum
  *
- * @covers  \GravityMedia\Ghostscript\Enum\CannotEmbedFontPolicy
+ * @covers  \Julietgar\Ghostscript\Enum\CannotEmbedFontPolicy
  */
 class CannotEmbedFontPolicyTest extends TestCase
 {

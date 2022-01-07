@@ -5,23 +5,23 @@
  * @author Daniel Schröder <daniel.schroeder@gravitymedia.de>
  */
 
-namespace GravityMedia\GhostscriptTest\Device\DistillerParameters;
+namespace Julietgar\GhostscriptTest\Device\DistillerParameters;
 
-use GravityMedia\Ghostscript\Device\DistillerParameters\MonoImageCompressionTrait;
-use GravityMedia\Ghostscript\Enum\ImageDownsampleType;
-use GravityMedia\Ghostscript\Enum\MonoImageFilter;
-use GravityMedia\Ghostscript\Enum\PdfSettings;
+use Julietgar\Ghostscript\Device\DistillerParameters\MonoImageCompressionTrait;
+use Julietgar\Ghostscript\Enum\ImageDownsampleType;
+use Julietgar\Ghostscript\Enum\MonoImageFilter;
+use Julietgar\Ghostscript\Enum\PdfSettings;
 use PHPUnit\Framework\TestCase;
 
 /**
  * The monochrome image compression distiller parameters test class.
  *
- * @package GravityMedia\GhostscriptTest\Devices\DistillerParameters
+ * @package Julietgar\GhostscriptTest\Devices\DistillerParameters
  *
- * @covers  \GravityMedia\Ghostscript\Device\DistillerParameters\MonoImageCompressionTrait
+ * @covers  \Julietgar\Ghostscript\Device\DistillerParameters\MonoImageCompressionTrait
  *
- * @uses    \GravityMedia\Ghostscript\Enum\MonoImageFilter
- * @uses    \GravityMedia\Ghostscript\Enum\ImageDownsampleType
+ * @uses    \Julietgar\Ghostscript\Enum\MonoImageFilter
+ * @uses    \Julietgar\Ghostscript\Enum\ImageDownsampleType
  */
 class MonoImageCompressionTraitTest extends TestCase
 {

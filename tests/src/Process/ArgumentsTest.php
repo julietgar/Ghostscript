@@ -5,20 +5,20 @@
  * @author Daniel Schröder <daniel.schroeder@gravitymedia.de>
  */
 
-namespace GravityMedia\GhostscriptTest\Process;
+namespace Julietgar\GhostscriptTest\Process;
 
-use GravityMedia\Ghostscript\Process\Argument;
-use GravityMedia\Ghostscript\Process\Arguments;
+use Julietgar\Ghostscript\Process\Argument;
+use Julietgar\Ghostscript\Process\Arguments;
 use PHPUnit\Framework\TestCase;
 
 /**
  * The arguments test class.
  *
- * @package GravityMedia\GhostscriptTest\Process
+ * @package Julietgar\GhostscriptTest\Process
  *
- * @covers  \GravityMedia\Ghostscript\Process\Arguments
+ * @covers  \Julietgar\Ghostscript\Process\Arguments
  *
- * @uses    \GravityMedia\Ghostscript\Process\Argument
+ * @uses    \Julietgar\Ghostscript\Process\Argument
  */
 class ArgumentsTest extends TestCase
 {

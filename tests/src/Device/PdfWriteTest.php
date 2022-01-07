@@ -5,30 +5,30 @@
  * @author Daniel Schröder <daniel.schroeder@gravitymedia.de>
  */
 
-namespace GravityMedia\GhostscriptTest\Device;
+namespace Julietgar\GhostscriptTest\Device;
 
-use GravityMedia\Ghostscript\Device\PdfWrite;
-use GravityMedia\Ghostscript\Enum\PdfSettings;
-use GravityMedia\Ghostscript\Enum\ProcessColorModel;
-use GravityMedia\Ghostscript\Ghostscript;
-use GravityMedia\Ghostscript\Process\Arguments as ProcessArguments;
+use Julietgar\Ghostscript\Device\PdfWrite;
+use Julietgar\Ghostscript\Enum\PdfSettings;
+use Julietgar\Ghostscript\Enum\ProcessColorModel;
+use Julietgar\Ghostscript\Ghostscript;
+use Julietgar\Ghostscript\Process\Arguments as ProcessArguments;
 use PHPUnit\Framework\TestCase;
 
 /**
  * The PDF write device test class.
  *
- * @package GravityMedia\GhostscriptTest\Devices
+ * @package Julietgar\GhostscriptTest\Devices
  *
- * @covers  \GravityMedia\Ghostscript\Device\PdfWrite
+ * @covers  \Julietgar\Ghostscript\Device\PdfWrite
  *
- * @uses    \GravityMedia\Ghostscript\Ghostscript
- * @uses    \GravityMedia\Ghostscript\Input
- * @uses    \GravityMedia\Ghostscript\Enum\PdfSettings
- * @uses    \GravityMedia\Ghostscript\Enum\ProcessColorModel
- * @uses    \GravityMedia\Ghostscript\Device\AbstractDevice
- * @uses    \GravityMedia\Ghostscript\Device\DistillerParametersTrait
- * @uses    \GravityMedia\Ghostscript\Process\Argument
- * @uses    \GravityMedia\Ghostscript\Process\Arguments
+ * @uses    \Julietgar\Ghostscript\Ghostscript
+ * @uses    \Julietgar\Ghostscript\Input
+ * @uses    \Julietgar\Ghostscript\Enum\PdfSettings
+ * @uses    \Julietgar\Ghostscript\Enum\ProcessColorModel
+ * @uses    \Julietgar\Ghostscript\Device\AbstractDevice
+ * @uses    \Julietgar\Ghostscript\Device\DistillerParametersTrait
+ * @uses    \Julietgar\Ghostscript\Process\Argument
+ * @uses    \Julietgar\Ghostscript\Process\Arguments
  */
 class PdfWriteTest extends TestCase
 {
@@ -62,7 +62,7 @@ class PdfWriteTest extends TestCase
 
     public function testDeviceCreation()
     {
-        $this->assertInstanceOf('GravityMedia\Ghostscript\Device\PdfWrite', $this->createDevice());
+        $this->assertInstanceOf('Julietgar\Ghostscript\Device\PdfWrite', $this->createDevice());
     }
 
     public function testOutputFileArgument()

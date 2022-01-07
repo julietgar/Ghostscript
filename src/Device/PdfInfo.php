@@ -5,10 +5,10 @@
  * @author Simon Schrape <s.schrape@epubli.com>
  */
 
-namespace GravityMedia\Ghostscript\Device;
+namespace Julietgar\Ghostscript\Device;
 
-use GravityMedia\Ghostscript\Ghostscript;
-use GravityMedia\Ghostscript\Process\Arguments;
+use Julietgar\Ghostscript\Ghostscript;
+use Julietgar\Ghostscript\Process\Arguments;
 
 /**
  * The PDF info device class.
@@ -17,7 +17,7 @@ use GravityMedia\Ghostscript\Process\Arguments;
  *
  * @link    http://svn.ghostscript.com/ghostscript/trunk/gs/toolbin/
  *
- * @package GravityMedia\Ghostscript\Devices
+ * @package Julietgar\Ghostscript\Devices
  */
 class PdfInfo extends NoDisplay
 {

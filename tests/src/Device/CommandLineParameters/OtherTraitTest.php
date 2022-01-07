@@ -5,17 +5,17 @@
  * @author Simon Schrape <s.schrape@epubli.com>
  */
 
-namespace GravityMedia\GhostscriptTest\Device\CommandLineParameters;
+namespace Julietgar\GhostscriptTest\Device\CommandLineParameters;
 
-use GravityMedia\Ghostscript\Device\CommandLineParameters\OtherTrait;
+use Julietgar\Ghostscript\Device\CommandLineParameters\OtherTrait;
 use PHPUnit\Framework\TestCase;
 
 /**
  * The other parameters trait test class.
  *
- * @package GravityMedia\GhostscriptTest\Device\CommandLineParameters
+ * @package Julietgar\GhostscriptTest\Device\CommandLineParameters
  *
- * @covers \GravityMedia\Ghostscript\Device\CommandLineParameters\OtherTrait
+ * @covers \Julietgar\Ghostscript\Device\CommandLineParameters\OtherTrait
  */
 class OtherTraitTest extends TestCase
 {

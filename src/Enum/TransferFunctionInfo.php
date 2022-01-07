@@ -5,12 +5,12 @@
  * @author Daniel Schröder <daniel.schroeder@gravitymedia.de>
  */
 
-namespace GravityMedia\Ghostscript\Enum;
+namespace Julietgar\Ghostscript\Enum;
 
 /**
  * The transfer function info enum
  *
- * @package GravityMedia\Ghostscript\Enum
+ * @package Julietgar\Ghostscript\Enum
  */
 class TransferFunctionInfo
 {

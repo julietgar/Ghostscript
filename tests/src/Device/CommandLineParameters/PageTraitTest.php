@@ -5,17 +5,17 @@
  * @author Simon Schrape <s.schrape@epubli.com>
  */
 
-namespace GravityMedia\GhostscriptTest\Device\CommandLineParameters;
+namespace Julietgar\GhostscriptTest\Device\CommandLineParameters;
 
-use GravityMedia\Ghostscript\Device\CommandLineParameters\PageTrait;
+use Julietgar\Ghostscript\Device\CommandLineParameters\PageTrait;
 use PHPUnit\Framework\TestCase;
 
 /**
  * The page parameters trait test class.
  *
- * @package GravityMedia\GhostscriptTest\Device\CommandLineParameters
+ * @package Julietgar\GhostscriptTest\Device\CommandLineParameters
  *
- * @covers \GravityMedia\Ghostscript\Device\CommandLineParameters\PageTrait
+ * @covers \Julietgar\Ghostscript\Device\CommandLineParameters\PageTrait
  */
 class PageTraitTest extends TestCase
 {

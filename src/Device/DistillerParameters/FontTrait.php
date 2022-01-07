@@ -5,15 +5,15 @@
  * @author Daniel Schröder <daniel.schroeder@gravitymedia.de>
  */
 
-namespace GravityMedia\Ghostscript\Device\DistillerParameters;
+namespace Julietgar\Ghostscript\Device\DistillerParameters;
 
-use GravityMedia\Ghostscript\Enum\CannotEmbedFontPolicy;
-use GravityMedia\Ghostscript\Enum\PdfSettings;
+use Julietgar\Ghostscript\Enum\CannotEmbedFontPolicy;
+use Julietgar\Ghostscript\Enum\PdfSettings;
 
 /**
  * The font distiller parameters trait.
  *
- * @package GravityMedia\Ghostscript\Device\DistillerParameters
+ * @package Julietgar\Ghostscript\Device\DistillerParameters
  *
  * @link    http://ghostscript.com/doc/current/Ps2pdf.htm
  */

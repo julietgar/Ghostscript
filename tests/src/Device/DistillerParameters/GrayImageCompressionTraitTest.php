@@ -5,23 +5,23 @@
  * @author Daniel Schröder <daniel.schroeder@gravitymedia.de>
  */
 
-namespace GravityMedia\GhostscriptTest\Device\DistillerParameters;
+namespace Julietgar\GhostscriptTest\Device\DistillerParameters;
 
-use GravityMedia\Ghostscript\Device\DistillerParameters\GrayImageCompressionTrait;
-use GravityMedia\Ghostscript\Enum\ColorAndGrayImageFilter;
-use GravityMedia\Ghostscript\Enum\ImageDownsampleType;
-use GravityMedia\Ghostscript\Enum\PdfSettings;
+use Julietgar\Ghostscript\Device\DistillerParameters\GrayImageCompressionTrait;
+use Julietgar\Ghostscript\Enum\ColorAndGrayImageFilter;
+use Julietgar\Ghostscript\Enum\ImageDownsampleType;
+use Julietgar\Ghostscript\Enum\PdfSettings;
 use PHPUnit\Framework\TestCase;
 
 /**
  * The grayscale image compression distiller parameters test class.
  *
- * @package GravityMedia\GhostscriptTest\Devices\DistillerParameters
+ * @package Julietgar\GhostscriptTest\Devices\DistillerParameters
  *
- * @covers  \GravityMedia\Ghostscript\Device\DistillerParameters\GrayImageCompressionTrait
+ * @covers  \Julietgar\Ghostscript\Device\DistillerParameters\GrayImageCompressionTrait
  *
- * @uses    \GravityMedia\Ghostscript\Enum\ColorAndGrayImageFilter
- * @uses    \GravityMedia\Ghostscript\Enum\ImageDownsampleType
+ * @uses    \Julietgar\Ghostscript\Enum\ColorAndGrayImageFilter
+ * @uses    \Julietgar\Ghostscript\Enum\ImageDownsampleType
  */
 class GrayImageCompressionTraitTest extends TestCase
 {

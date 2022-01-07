@@ -5,17 +5,17 @@
  * @author Daniel Schröder <daniel.schroeder@gravitymedia.de>
  */
 
-namespace GravityMedia\GhostscriptTest\Enum;
+namespace Julietgar\GhostscriptTest\Enum;
 
-use GravityMedia\Ghostscript\Enum\TransferFunctionInfo;
+use Julietgar\Ghostscript\Enum\TransferFunctionInfo;
 use PHPUnit\Framework\TestCase;
 
 /**
  * The transfer function info enum test class
  *
- * @package GravityMedia\GhostscriptTest\Enum
+ * @package Julietgar\GhostscriptTest\Enum
  *
- * @covers  \GravityMedia\Ghostscript\Enum\TransferFunctionInfo
+ * @covers  \Julietgar\Ghostscript\Enum\TransferFunctionInfo
  */
 class TransferFunctionInfoTest extends TestCase
 {

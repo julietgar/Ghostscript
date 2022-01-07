@@ -5,26 +5,26 @@
  * @author Simon Schrape <s.schrape@epubli.com>
  */
 
-namespace GravityMedia\GhostscriptTest\Device;
+namespace Julietgar\GhostscriptTest\Device;
 
-use GravityMedia\Ghostscript\Device\PdfInfo;
-use GravityMedia\Ghostscript\Ghostscript;
-use GravityMedia\Ghostscript\Process\Arguments;
+use Julietgar\Ghostscript\Device\PdfInfo;
+use Julietgar\Ghostscript\Ghostscript;
+use Julietgar\Ghostscript\Process\Arguments;
 use PHPUnit\Framework\TestCase;
 
 /**
  * The pdf info device test class.
  *
- * @package GravityMedia\GhostscriptTest\Devices
+ * @package Julietgar\GhostscriptTest\Devices
  *
- * @covers  \GravityMedia\Ghostscript\Device\PdfInfo
+ * @covers  \Julietgar\Ghostscript\Device\PdfInfo
  *
- * @uses    \GravityMedia\Ghostscript\Ghostscript
- * @uses    \GravityMedia\Ghostscript\Input
- * @uses    \GravityMedia\Ghostscript\Device\AbstractDevice
- * @uses    \GravityMedia\Ghostscript\Device\NoDisplay
- * @uses    \GravityMedia\Ghostscript\Process\Argument
- * @uses    \GravityMedia\Ghostscript\Process\Arguments
+ * @uses    \Julietgar\Ghostscript\Ghostscript
+ * @uses    \Julietgar\Ghostscript\Input
+ * @uses    \Julietgar\Ghostscript\Device\AbstractDevice
+ * @uses    \Julietgar\Ghostscript\Device\NoDisplay
+ * @uses    \Julietgar\Ghostscript\Process\Argument
+ * @uses    \Julietgar\Ghostscript\Process\Arguments
  */
 class PdfInfoTest extends TestCase
 {

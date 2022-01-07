@@ -5,35 +5,35 @@
  * @author Daniel Schröder <daniel.schroeder@gravitymedia.de>
  */
 
-namespace GravityMedia\GhostscriptTest\Device;
+namespace Julietgar\GhostscriptTest\Device;
 
-use GravityMedia\Ghostscript\Device\AbstractDevice;
-use GravityMedia\Ghostscript\Ghostscript;
-use GravityMedia\Ghostscript\Input;
-use GravityMedia\Ghostscript\Process\Argument;
-use GravityMedia\Ghostscript\Process\Arguments;
+use Julietgar\Ghostscript\Device\AbstractDevice;
+use Julietgar\Ghostscript\Ghostscript;
+use Julietgar\Ghostscript\Input;
+use Julietgar\Ghostscript\Process\Argument;
+use Julietgar\Ghostscript\Process\Arguments;
 use PHPUnit\Framework\TestCase;
 
 /**
  * The abstract device test class.
  *
- * @package GravityMedia\GhostscriptTest\Devices
+ * @package Julietgar\GhostscriptTest\Devices
  *
- * @covers  \GravityMedia\Ghostscript\Device\AbstractDevice
+ * @covers  \Julietgar\Ghostscript\Device\AbstractDevice
  *
- * @uses    \GravityMedia\Ghostscript\Ghostscript
- * @uses    \GravityMedia\Ghostscript\Input
- * @uses    \GravityMedia\Ghostscript\Device\CommandLineParameters\EpsTrait
- * @uses    \GravityMedia\Ghostscript\Device\CommandLineParameters\FontTrait
- * @uses    \GravityMedia\Ghostscript\Device\CommandLineParameters\IccColorTrait
- * @uses    \GravityMedia\Ghostscript\Device\CommandLineParameters\InteractionTrait
- * @uses    \GravityMedia\Ghostscript\Device\CommandLineParameters\OtherTrait
- * @uses    \GravityMedia\Ghostscript\Device\CommandLineParameters\OutputSelectionTrait
- * @uses    \GravityMedia\Ghostscript\Device\CommandLineParameters\PageTrait
- * @uses    \GravityMedia\Ghostscript\Device\CommandLineParameters\RenderingTrait
- * @uses    \GravityMedia\Ghostscript\Device\CommandLineParameters\ResourceTrait
- * @uses    \GravityMedia\Ghostscript\Process\Argument
- * @uses    \GravityMedia\Ghostscript\Process\Arguments
+ * @uses    \Julietgar\Ghostscript\Ghostscript
+ * @uses    \Julietgar\Ghostscript\Input
+ * @uses    \Julietgar\Ghostscript\Device\CommandLineParameters\EpsTrait
+ * @uses    \Julietgar\Ghostscript\Device\CommandLineParameters\FontTrait
+ * @uses    \Julietgar\Ghostscript\Device\CommandLineParameters\IccColorTrait
+ * @uses    \Julietgar\Ghostscript\Device\CommandLineParameters\InteractionTrait
+ * @uses    \Julietgar\Ghostscript\Device\CommandLineParameters\OtherTrait
+ * @uses    \Julietgar\Ghostscript\Device\CommandLineParameters\OutputSelectionTrait
+ * @uses    \Julietgar\Ghostscript\Device\CommandLineParameters\PageTrait
+ * @uses    \Julietgar\Ghostscript\Device\CommandLineParameters\RenderingTrait
+ * @uses    \Julietgar\Ghostscript\Device\CommandLineParameters\ResourceTrait
+ * @uses    \Julietgar\Ghostscript\Process\Argument
+ * @uses    \Julietgar\Ghostscript\Process\Arguments
  */
 class AbstractDeviceTest extends TestCase
 {
@@ -76,7 +76,7 @@ class AbstractDeviceTest extends TestCase
 
         $this->assertNull($method->invoke($device, '-dBaz'));
 
-        /** @var \GravityMedia\Ghostscript\Process\Argument $argument */
+        /** @var \Julietgar\Ghostscript\Process\Argument $argument */
         $argument = $method->invoke($device, '-dFoo');
         $this->assertInstanceOf(Argument::class, $argument);
         $this->assertSame('/Bar', $argument->getValue());

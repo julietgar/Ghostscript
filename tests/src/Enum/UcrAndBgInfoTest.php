@@ -5,17 +5,17 @@
  * @author Daniel Schröder <daniel.schroeder@gravitymedia.de>
  */
 
-namespace GravityMedia\GhostscriptTest\Enum;
+namespace Julietgar\GhostscriptTest\Enum;
 
-use GravityMedia\Ghostscript\Enum\UcrAndBgInfo;
+use Julietgar\Ghostscript\Enum\UcrAndBgInfo;
 use PHPUnit\Framework\TestCase;
 
 /**
  * The UCR and BG info enum test class
  *
- * @package GravityMedia\GhostscriptTest\Enum
+ * @package Julietgar\GhostscriptTest\Enum
  *
- * @covers  \GravityMedia\Ghostscript\Enum\UcrAndBgInfo
+ * @covers  \Julietgar\Ghostscript\Enum\UcrAndBgInfo
  */
 class UcrAndBgInfoTest extends TestCase
 {

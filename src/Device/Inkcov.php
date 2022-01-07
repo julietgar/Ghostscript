@@ -3,14 +3,14 @@
  * This file is part of the Ghostscript package
  */
 
-namespace GravityMedia\Ghostscript\Device;
+namespace Julietgar\Ghostscript\Device;
 
-use GravityMedia\Ghostscript\Ghostscript;
-use GravityMedia\Ghostscript\Process\Arguments as ProcessArguments;
-use GravityMedia\Ghostscript\Process\Arguments;
+use Julietgar\Ghostscript\Ghostscript;
+use Julietgar\Ghostscript\Process\Arguments as ProcessArguments;
+use Julietgar\Ghostscript\Process\Arguments;
 
 /**
- * @package GravityMedia\Ghostscript\Devices
+ * @package Julietgar\Ghostscript\Devices
  */
 class Inkcov extends AbstractDevice
 {

@@ -5,16 +5,16 @@
  * @author Daniel Schröder <daniel.schroeder@gravitymedia.de>
  */
 
-namespace GravityMedia\Ghostscript\Device\DistillerParameters;
+namespace Julietgar\Ghostscript\Device\DistillerParameters;
 
-use GravityMedia\Ghostscript\Enum\ColorAndGrayImageFilter;
-use GravityMedia\Ghostscript\Enum\ImageDownsampleType;
-use GravityMedia\Ghostscript\Enum\PdfSettings;
+use Julietgar\Ghostscript\Enum\ColorAndGrayImageFilter;
+use Julietgar\Ghostscript\Enum\ImageDownsampleType;
+use Julietgar\Ghostscript\Enum\PdfSettings;
 
 /**
  * The color image compression distiller parameters trait.
  *
- * @package GravityMedia\Ghostscript\Device\DistillerParameters
+ * @package Julietgar\Ghostscript\Device\DistillerParameters
  *
  * @link    http://ghostscript.com/doc/current/Ps2pdf.htm
  */

@@ -5,23 +5,23 @@
  * @author Daniel Schröder <daniel.schroeder@gravitymedia.de>
  */
 
-namespace GravityMedia\GhostscriptTest\Device;
+namespace Julietgar\GhostscriptTest\Device;
 
-use GravityMedia\Ghostscript\Device\DistillerParametersTrait;
-use GravityMedia\Ghostscript\Enum\AutoRotatePages;
-use GravityMedia\Ghostscript\Enum\Binding;
-use GravityMedia\Ghostscript\Enum\PdfSettings;
+use Julietgar\Ghostscript\Device\DistillerParametersTrait;
+use Julietgar\Ghostscript\Enum\AutoRotatePages;
+use Julietgar\Ghostscript\Enum\Binding;
+use Julietgar\Ghostscript\Enum\PdfSettings;
 use PHPUnit\Framework\TestCase;
 
 /**
  * The general distiller parameters test class.
  *
- * @package GravityMedia\GhostscriptTest\Devices
+ * @package Julietgar\GhostscriptTest\Devices
  *
- * @covers  \GravityMedia\Ghostscript\Device\DistillerParametersTrait
+ * @covers  \Julietgar\Ghostscript\Device\DistillerParametersTrait
  *
- * @uses    \GravityMedia\Ghostscript\Enum\AutoRotatePages
- * @uses    \GravityMedia\Ghostscript\Enum\Binding
+ * @uses    \Julietgar\Ghostscript\Enum\AutoRotatePages
+ * @uses    \Julietgar\Ghostscript\Enum\Binding
  */
 class DistillerParametersTraitTest extends TestCase
 {
@@ -32,7 +32,7 @@ class DistillerParametersTraitTest extends TestCase
      */
     protected function createTraitForDefaultValue($pdfSettings)
     {
-        $trait = $this->getMockForTrait('GravityMedia\Ghostscript\Device\DistillerParametersTrait');
+        $trait = $this->getMockForTrait('Julietgar\Ghostscript\Device\DistillerParametersTrait');
 
         $trait->expects($this->once())
             ->method('getArgumentValue')
@@ -52,7 +52,7 @@ class DistillerParametersTraitTest extends TestCase
      */
     protected function createTraitForArgumentValue($argumentValue)
     {
-        $trait = $this->getMockForTrait('GravityMedia\Ghostscript\Device\DistillerParametersTrait');
+        $trait = $this->getMockForTrait('Julietgar\Ghostscript\Device\DistillerParametersTrait');
 
         $trait->expects($this->once())
             ->method('getArgumentValue')
@@ -102,7 +102,7 @@ class DistillerParametersTraitTest extends TestCase
     public function testAutoRotatePagesArgumentThrowsException()
     {
         /** @var DistillerParametersTrait $trait */
-        $trait = $this->getMockForTrait('GravityMedia\Ghostscript\Device\DistillerParametersTrait');
+        $trait = $this->getMockForTrait('Julietgar\Ghostscript\Device\DistillerParametersTrait');
 
         $trait->setAutoRotatePages('/Foo');
     }
@@ -122,7 +122,7 @@ class DistillerParametersTraitTest extends TestCase
     public function testBindingArgumentThrowsException()
     {
         /** @var DistillerParametersTrait $trait */
-        $trait = $this->getMockForTrait('GravityMedia\Ghostscript\Device\DistillerParametersTrait');
+        $trait = $this->getMockForTrait('Julietgar\Ghostscript\Device\DistillerParametersTrait');
 
         $trait->setBinding('/Foo');
     }

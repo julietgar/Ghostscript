@@ -5,25 +5,25 @@
  * @author Simon Schrape <s.schrape@epubli.com>
  */
 
-namespace GravityMedia\GhostscriptTest\Device;
+namespace Julietgar\GhostscriptTest\Device;
 
-use GravityMedia\Ghostscript\Device\BoundingBoxInfo;
-use GravityMedia\Ghostscript\Ghostscript;
-use GravityMedia\Ghostscript\Process\Argument;
-use GravityMedia\Ghostscript\Process\Arguments;
+use Julietgar\Ghostscript\Device\BoundingBoxInfo;
+use Julietgar\Ghostscript\Ghostscript;
+use Julietgar\Ghostscript\Process\Argument;
+use Julietgar\Ghostscript\Process\Arguments;
 use PHPUnit\Framework\TestCase;
 
 /**
  * The bounding box info device test class.
  *
- * @package GravityMedia\GhostscriptTest\Devices
+ * @package Julietgar\GhostscriptTest\Devices
  *
- * @covers  \GravityMedia\Ghostscript\Device\BoundingBoxInfo
+ * @covers  \Julietgar\Ghostscript\Device\BoundingBoxInfo
  *
- * @uses    \GravityMedia\Ghostscript\Ghostscript
- * @uses    \GravityMedia\Ghostscript\Device\AbstractDevice
- * @uses    \GravityMedia\Ghostscript\Process\Argument
- * @uses    \GravityMedia\Ghostscript\Process\Arguments
+ * @uses    \Julietgar\Ghostscript\Ghostscript
+ * @uses    \Julietgar\Ghostscript\Device\AbstractDevice
+ * @uses    \Julietgar\Ghostscript\Process\Argument
+ * @uses    \Julietgar\Ghostscript\Process\Arguments
  */
 class BoundingBoxInfoTest extends TestCase
 {

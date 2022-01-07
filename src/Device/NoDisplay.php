@@ -5,15 +5,15 @@
  * @author Simon Schrape <s.schrape@epubli.com>
  */
 
-namespace GravityMedia\Ghostscript\Device;
+namespace Julietgar\Ghostscript\Device;
 
-use GravityMedia\Ghostscript\Ghostscript;
-use GravityMedia\Ghostscript\Process\Arguments;
+use Julietgar\Ghostscript\Ghostscript;
+use Julietgar\Ghostscript\Process\Arguments;
 
 /**
  * The no display device class.
  *
- * @package GravityMedia\Ghostscript\Devices
+ * @package Julietgar\Ghostscript\Devices
  */
 class NoDisplay extends AbstractDevice
 {

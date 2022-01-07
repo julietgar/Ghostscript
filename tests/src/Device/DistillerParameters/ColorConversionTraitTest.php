@@ -5,27 +5,27 @@
  * @author Daniel Schröder <daniel.schroeder@gravitymedia.de>
  */
 
-namespace GravityMedia\GhostscriptTest\Device\DistillerParameters;
+namespace Julietgar\GhostscriptTest\Device\DistillerParameters;
 
-use GravityMedia\Ghostscript\Device\DistillerParameters\ColorConversionTrait;
-use GravityMedia\Ghostscript\Enum\ColorConversionStrategy;
-use GravityMedia\Ghostscript\Enum\DefaultRenderingIntent;
-use GravityMedia\Ghostscript\Enum\PdfSettings;
-use GravityMedia\Ghostscript\Enum\TransferFunctionInfo;
-use GravityMedia\Ghostscript\Enum\UcrAndBgInfo;
+use Julietgar\Ghostscript\Device\DistillerParameters\ColorConversionTrait;
+use Julietgar\Ghostscript\Enum\ColorConversionStrategy;
+use Julietgar\Ghostscript\Enum\DefaultRenderingIntent;
+use Julietgar\Ghostscript\Enum\PdfSettings;
+use Julietgar\Ghostscript\Enum\TransferFunctionInfo;
+use Julietgar\Ghostscript\Enum\UcrAndBgInfo;
 use PHPUnit\Framework\TestCase;
 
 /**
  * The color conversion distiller parameters test class.
  *
- * @package GravityMedia\GhostscriptTest\Devices\DistillerParameters
+ * @package Julietgar\GhostscriptTest\Devices\DistillerParameters
  *
- * @covers  \GravityMedia\Ghostscript\Device\DistillerParameters\ColorConversionTrait
+ * @covers  \Julietgar\Ghostscript\Device\DistillerParameters\ColorConversionTrait
  *
- * @uses    \GravityMedia\Ghostscript\Enum\ColorConversionStrategy
- * @uses    \GravityMedia\Ghostscript\Enum\DefaultRenderingIntent
- * @uses    \GravityMedia\Ghostscript\Enum\TransferFunctionInfo
- * @uses    \GravityMedia\Ghostscript\Enum\UcrAndBgInfo
+ * @uses    \Julietgar\Ghostscript\Enum\ColorConversionStrategy
+ * @uses    \Julietgar\Ghostscript\Enum\DefaultRenderingIntent
+ * @uses    \Julietgar\Ghostscript\Enum\TransferFunctionInfo
+ * @uses    \Julietgar\Ghostscript\Enum\UcrAndBgInfo
  */
 class ColorConversionTraitTest extends TestCase
 {

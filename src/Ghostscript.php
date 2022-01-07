@@ -5,20 +5,20 @@
  * @author Daniel Schröder <daniel.schroeder@gravitymedia.de>
  */
 
-namespace GravityMedia\Ghostscript;
+namespace Julietgar\Ghostscript;
 
-use GravityMedia\Ghostscript\Device\BoundingBoxInfo;
-use GravityMedia\Ghostscript\Device\Inkcov;
-use GravityMedia\Ghostscript\Device\NoDisplay;
-use GravityMedia\Ghostscript\Device\PdfInfo;
-use GravityMedia\Ghostscript\Device\PdfWrite;
-use GravityMedia\Ghostscript\Process\Arguments;
+use Julietgar\Ghostscript\Device\BoundingBoxInfo;
+use Julietgar\Ghostscript\Device\Inkcov;
+use Julietgar\Ghostscript\Device\NoDisplay;
+use Julietgar\Ghostscript\Device\PdfInfo;
+use Julietgar\Ghostscript\Device\PdfWrite;
+use Julietgar\Ghostscript\Process\Arguments;
 use Symfony\Component\Process\Process;
 
 /**
  * The Ghostscript class.
  *
- * @package GravityMedia\Ghostscript
+ * @package Julietgar\Ghostscript
  */
 class Ghostscript
 {

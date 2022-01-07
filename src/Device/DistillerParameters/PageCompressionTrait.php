@@ -5,12 +5,12 @@
  * @author Daniel Schröder <daniel.schroeder@gravitymedia.de>
  */
 
-namespace GravityMedia\Ghostscript\Device\DistillerParameters;
+namespace Julietgar\Ghostscript\Device\DistillerParameters;
 
 /**
  * The page compression distiller parameters trait.
  *
- * @package GravityMedia\Ghostscript\Device\DistillerParameters
+ * @package Julietgar\Ghostscript\Device\DistillerParameters
  *
  * @link    http://ghostscript.com/doc/current/Ps2pdf.htm
  */

@@ -5,12 +5,12 @@
  * @author Daniel Schröder <daniel.schroeder@gravitymedia.de>
  */
 
-namespace GravityMedia\Ghostscript\Process;
+namespace Julietgar\Ghostscript\Process;
 
 /**
  * The arguments class.
  *
- * @package GravityMedia\Ghostscript\Process
+ * @package Julietgar\Ghostscript\Process
  */
 class Arguments
 {

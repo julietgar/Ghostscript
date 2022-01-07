@@ -5,18 +5,18 @@
  * @author Daniel Schröder <daniel.schroeder@gravitymedia.de>
  */
 
-namespace GravityMedia\Ghostscript\Device;
+namespace Julietgar\Ghostscript\Device;
 
-use GravityMedia\Ghostscript\Ghostscript;
-use GravityMedia\Ghostscript\Input;
-use GravityMedia\Ghostscript\Process\Argument;
-use GravityMedia\Ghostscript\Process\Arguments;
+use Julietgar\Ghostscript\Ghostscript;
+use Julietgar\Ghostscript\Input;
+use Julietgar\Ghostscript\Process\Argument;
+use Julietgar\Ghostscript\Process\Arguments;
 use Symfony\Component\Process\Process;
 
 /**
  * The abstract device class.
  *
- * @package GravityMedia\Ghostscript\Devices
+ * @package Julietgar\Ghostscript\Devices
  */
 abstract class AbstractDevice
 {

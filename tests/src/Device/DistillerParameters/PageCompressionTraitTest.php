@@ -5,17 +5,17 @@
  * @author Daniel Schröder <daniel.schroeder@gravitymedia.de>
  */
 
-namespace GravityMedia\GhostscriptTest\Device\DistillerParameters;
+namespace Julietgar\GhostscriptTest\Device\DistillerParameters;
 
-use GravityMedia\Ghostscript\Device\DistillerParameters\PageCompressionTrait;
+use Julietgar\Ghostscript\Device\DistillerParameters\PageCompressionTrait;
 use PHPUnit\Framework\TestCase;
 
 /**
  * The page compression distiller parameters test class.
  *
- * @package GravityMedia\GhostscriptTest\Devices\DistillerParameters
+ * @package Julietgar\GhostscriptTest\Devices\DistillerParameters
  *
- * @covers  \GravityMedia\Ghostscript\Device\DistillerParameters\PageCompressionTrait
+ * @covers  \Julietgar\Ghostscript\Device\DistillerParameters\PageCompressionTrait
  */
 class PageCompressionTraitTest extends TestCase
 {

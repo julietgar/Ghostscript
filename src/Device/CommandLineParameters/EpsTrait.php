@@ -5,12 +5,12 @@
  * @author Simon Schrape <s.schrape@epubli.com>
  */
 
-namespace GravityMedia\Ghostscript\Device\CommandLineParameters;
+namespace Julietgar\Ghostscript\Device\CommandLineParameters;
 
 /**
  * The EPS parameters trait.
  *
- * @package GravityMedia\Ghostscript\Device\CommandLineParameters
+ * @package Julietgar\Ghostscript\Device\CommandLineParameters
  *
  * @link    http://ghostscript.com/doc/current/Use.htm#EPS_parameters
  */

@@ -5,16 +5,16 @@
  * @author Daniel Schröder <daniel.schroeder@gravitymedia.de>
  */
 
-namespace GravityMedia\Ghostscript\Device;
+namespace Julietgar\Ghostscript\Device;
 
-use GravityMedia\Ghostscript\Enum\AutoRotatePages;
-use GravityMedia\Ghostscript\Enum\Binding;
-use GravityMedia\Ghostscript\Enum\PdfSettings;
+use Julietgar\Ghostscript\Enum\AutoRotatePages;
+use Julietgar\Ghostscript\Enum\Binding;
+use Julietgar\Ghostscript\Enum\PdfSettings;
 
 /**
  * The general distiller parameters trait.
  *
- * @package GravityMedia\Ghostscript\Devices
+ * @package Julietgar\Ghostscript\Devices
  *
  * @link    http://ghostscript.com/doc/current/Ps2pdf.htm
  */

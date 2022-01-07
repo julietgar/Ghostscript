@@ -5,21 +5,21 @@
  * @author Daniel Schröder <daniel.schroeder@gravitymedia.de>
  */
 
-namespace GravityMedia\GhostscriptTest\Device\DistillerParameters;
+namespace Julietgar\GhostscriptTest\Device\DistillerParameters;
 
-use GravityMedia\Ghostscript\Device\DistillerParameters\FontTrait;
-use GravityMedia\Ghostscript\Enum\CannotEmbedFontPolicy;
-use GravityMedia\Ghostscript\Enum\PdfSettings;
+use Julietgar\Ghostscript\Device\DistillerParameters\FontTrait;
+use Julietgar\Ghostscript\Enum\CannotEmbedFontPolicy;
+use Julietgar\Ghostscript\Enum\PdfSettings;
 use PHPUnit\Framework\TestCase;
 
 /**
  * The font distiller parameters test class.
  *
- * @package GravityMedia\GhostscriptTest\Devices\DistillerParameters
+ * @package Julietgar\GhostscriptTest\Devices\DistillerParameters
  *
- * @covers  \GravityMedia\Ghostscript\Device\DistillerParameters\FontTrait
+ * @covers  \Julietgar\Ghostscript\Device\DistillerParameters\FontTrait
  *
- * @uses    \GravityMedia\Ghostscript\Enum\CannotEmbedFontPolicy
+ * @uses    \Julietgar\Ghostscript\Enum\CannotEmbedFontPolicy
  */
 class FontTraitTest extends TestCase
 {

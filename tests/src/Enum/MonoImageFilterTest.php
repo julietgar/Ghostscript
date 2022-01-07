@@ -5,17 +5,17 @@
  * @author Daniel Schröder <daniel.schroeder@gravitymedia.de>
  */
 
-namespace GravityMedia\GhostscriptTest\Enum;
+namespace Julietgar\GhostscriptTest\Enum;
 
-use GravityMedia\Ghostscript\Enum\MonoImageFilter;
+use Julietgar\Ghostscript\Enum\MonoImageFilter;
 use PHPUnit\Framework\TestCase;
 
 /**
  * The monochrome image filter enum test class
  *
- * @package GravityMedia\GhostscriptTest\Enum
+ * @package Julietgar\GhostscriptTest\Enum
  *
- * @covers  \GravityMedia\Ghostscript\Enum\MonoImageFilter
+ * @covers  \Julietgar\Ghostscript\Enum\MonoImageFilter
  */
 class MonoImageFilterTest extends TestCase
 {

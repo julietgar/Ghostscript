@@ -5,17 +5,17 @@
  * @author Daniel Schröder <daniel.schroeder@gravitymedia.de>
  */
 
-namespace GravityMedia\GhostscriptTest\Enum;
+namespace Julietgar\GhostscriptTest\Enum;
 
-use GravityMedia\Ghostscript\Enum\ColorConversionStrategy;
+use Julietgar\Ghostscript\Enum\ColorConversionStrategy;
 use PHPUnit\Framework\TestCase;
 
 /**
  * The color conversion strategy enum test class
  *
- * @package GravityMedia\GhostscriptTest\Enum
+ * @package Julietgar\GhostscriptTest\Enum
  *
- * @covers  \GravityMedia\Ghostscript\Enum\ColorConversionStrategy
+ * @covers  \Julietgar\Ghostscript\Enum\ColorConversionStrategy
  */
 class ColorConversionStrategyTest extends TestCase
 {

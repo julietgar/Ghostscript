@@ -5,17 +5,17 @@
  * @author Simon Schrape <s.schrape@epubli.com>
  */
 
-namespace GravityMedia\GhostscriptTest\Enum;
+namespace Julietgar\GhostscriptTest\Enum;
 
-use GravityMedia\Ghostscript\Enum\ProcessColorModel;
+use Julietgar\Ghostscript\Enum\ProcessColorModel;
 use PHPUnit\Framework\TestCase;
 
 /**
  * The binding enum test class
  *
- * @package GravityMedia\GhostscriptTest\Enum
+ * @package Julietgar\GhostscriptTest\Enum
  *
- * @covers  \GravityMedia\Ghostscript\Enum\ProcessColorModel
+ * @covers  \Julietgar\Ghostscript\Enum\ProcessColorModel
  */
 class ProcessColorModelTest extends TestCase
 {

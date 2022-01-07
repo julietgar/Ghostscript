@@ -5,17 +5,17 @@
  * @author Daniel Schröder <daniel.schroeder@gravitymedia.de>
  */
 
-namespace GravityMedia\GhostscriptTest;
+namespace Julietgar\GhostscriptTest;
 
-use GravityMedia\Ghostscript\Input;
+use Julietgar\Ghostscript\Input;
 use PHPUnit\Framework\TestCase;
 
 /**
  * The input test class
  *
- * @package GravityMedia\GhostscriptTest
+ * @package Julietgar\GhostscriptTest
  *
- * @covers  \GravityMedia\Ghostscript\Input
+ * @covers  \Julietgar\Ghostscript\Input
  */
 class InputTest extends TestCase
 {

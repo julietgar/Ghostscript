@@ -5,12 +5,12 @@
  * @author Simon Schrape <s.schrape@epubli.com>
  */
 
-namespace GravityMedia\Ghostscript\Device\CommandLineParameters;
+namespace Julietgar\Ghostscript\Device\CommandLineParameters;
 
 /**
  * The font-related parameters trait.
  *
- * @package GravityMedia\Ghostscript\Device\CommandLineParameters
+ * @package Julietgar\Ghostscript\Device\CommandLineParameters
  *
  * @link    http://ghostscript.com/doc/current/Use.htm#Font_related_parameters
  */

@@ -5,17 +5,17 @@
  * @author Daniel Schröder <daniel.schroeder@gravitymedia.de>
  */
 
-namespace GravityMedia\GhostscriptTest\Process;
+namespace Julietgar\GhostscriptTest\Process;
 
-use GravityMedia\Ghostscript\Process\Argument;
+use Julietgar\Ghostscript\Process\Argument;
 use PHPUnit\Framework\TestCase;
 
 /**
  * The process argument test class.
  *
- * @package GravityMedia\GhostscriptTest\Process
+ * @package Julietgar\GhostscriptTest\Process
  *
- * @covers  \GravityMedia\Ghostscript\Process\Argument
+ * @covers  \Julietgar\Ghostscript\Process\Argument
  */
 class ArgumentTest extends TestCase
 {

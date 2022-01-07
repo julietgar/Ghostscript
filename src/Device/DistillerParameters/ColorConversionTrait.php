@@ -5,18 +5,18 @@
  * @author Daniel Schröder <daniel.schroeder@gravitymedia.de>
  */
 
-namespace GravityMedia\Ghostscript\Device\DistillerParameters;
+namespace Julietgar\Ghostscript\Device\DistillerParameters;
 
-use GravityMedia\Ghostscript\Enum\ColorConversionStrategy;
-use GravityMedia\Ghostscript\Enum\DefaultRenderingIntent;
-use GravityMedia\Ghostscript\Enum\PdfSettings;
-use GravityMedia\Ghostscript\Enum\TransferFunctionInfo;
-use GravityMedia\Ghostscript\Enum\UcrAndBgInfo;
+use Julietgar\Ghostscript\Enum\ColorConversionStrategy;
+use Julietgar\Ghostscript\Enum\DefaultRenderingIntent;
+use Julietgar\Ghostscript\Enum\PdfSettings;
+use Julietgar\Ghostscript\Enum\TransferFunctionInfo;
+use Julietgar\Ghostscript\Enum\UcrAndBgInfo;
 
 /**
  * The color conversion distiller parameters trait.
  *
- * @package GravityMedia\Ghostscript\Device\DistillerParameters
+ * @package Julietgar\Ghostscript\Device\DistillerParameters
  *
  * @link    http://ghostscript.com/doc/current/Ps2pdf.htm
  */

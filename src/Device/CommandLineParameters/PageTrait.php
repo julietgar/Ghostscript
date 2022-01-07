@@ -5,12 +5,12 @@
  * @author Simon Schrape <s.schrape@epubli.com>
  */
 
-namespace GravityMedia\Ghostscript\Device\CommandLineParameters;
+namespace Julietgar\Ghostscript\Device\CommandLineParameters;
 
 /**
  * The page parameters trait.
  *
- * @package GravityMedia\Ghostscript\Device\CommandLineParameters
+ * @package Julietgar\Ghostscript\Device\CommandLineParameters
  *
  * @link    http://ghostscript.com/doc/current/Use.htm#Page_parameters
  */
@@ -47,7 +47,7 @@ trait PageTrait
     /**
      * Set FirstPage parameter
      * Begins processing on the designated page of the document.
-     * 
+     *
      * @param int $firstPage.
      *
      * @return $this
@@ -72,7 +72,7 @@ trait PageTrait
     /**
      * Set LastPage parameter
      * Stops processing after the designated page of the document.
-     * 
+     *
      * @param int $lastPage.
      *
      * @return $this

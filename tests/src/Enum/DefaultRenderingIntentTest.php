@@ -5,17 +5,17 @@
  * @author Daniel Schröder <daniel.schroeder@gravitymedia.de>
  */
 
-namespace GravityMedia\GhostscriptTest\Enum;
+namespace Julietgar\GhostscriptTest\Enum;
 
-use GravityMedia\Ghostscript\Enum\DefaultRenderingIntent;
+use Julietgar\Ghostscript\Enum\DefaultRenderingIntent;
 use PHPUnit\Framework\TestCase;
 
 /**
  * The default rendering intent enum test class
  *
- * @package GravityMedia\GhostscriptTest\Enum
+ * @package Julietgar\GhostscriptTest\Enum
  *
- * @covers  \GravityMedia\Ghostscript\Enum\DefaultRenderingIntent
+ * @covers  \Julietgar\Ghostscript\Enum\DefaultRenderingIntent
  */
 class DefaultRenderingIntentTest extends TestCase
 {

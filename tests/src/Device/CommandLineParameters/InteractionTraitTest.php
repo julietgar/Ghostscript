@@ -5,17 +5,17 @@
  * @author Simon Schrape <s.schrape@epubli.com>
  */
 
-namespace GravityMedia\GhostscriptTest\Device\CommandLineParameters;
+namespace Julietgar\GhostscriptTest\Device\CommandLineParameters;
 
-use GravityMedia\Ghostscript\Device\CommandLineParameters\InteractionTrait;
+use Julietgar\Ghostscript\Device\CommandLineParameters\InteractionTrait;
 use PHPUnit\Framework\TestCase;
 
 /**
  * The interaction-related parameters trait test class.
  *
- * @package GravityMedia\GhostscriptTest\Device\CommandLineParameters
+ * @package Julietgar\GhostscriptTest\Device\CommandLineParameters
  *
- * @covers  \GravityMedia\Ghostscript\Device\CommandLineParameters\InteractionTrait
+ * @covers  \Julietgar\Ghostscript\Device\CommandLineParameters\InteractionTrait
  */
 class InteractionTraitTest extends TestCase
 {

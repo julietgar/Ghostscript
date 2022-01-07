@@ -5,12 +5,12 @@
  * @author Daniel Schröder <daniel.schroeder@gravitymedia.de>
  */
 
-namespace GravityMedia\Ghostscript\Enum;
+namespace Julietgar\Ghostscript\Enum;
 
 /**
  * The cannot embed font policy enum
  *
- * @package GravityMedia\Ghostscript\Enum
+ * @package Julietgar\Ghostscript\Enum
  */
 class CannotEmbedFontPolicy
 {

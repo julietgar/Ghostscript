@@ -5,18 +5,18 @@
  * @author Daniel Schröder <daniel.schroeder@gravitymedia.de>
  */
 
-namespace GravityMedia\GhostscriptTest\Device\DistillerParameters;
+namespace Julietgar\GhostscriptTest\Device\DistillerParameters;
 
-use GravityMedia\Ghostscript\Device\DistillerParameters\AdvancedTrait;
-use GravityMedia\Ghostscript\Enum\PdfSettings;
+use Julietgar\Ghostscript\Device\DistillerParameters\AdvancedTrait;
+use Julietgar\Ghostscript\Enum\PdfSettings;
 use PHPUnit\Framework\TestCase;
 
 /**
  * The advanced distiller parameters test class.
  *
- * @package GravityMedia\GhostscriptTest\Devices\DistillerParameters
+ * @package Julietgar\GhostscriptTest\Devices\DistillerParameters
  *
- * @covers  \GravityMedia\Ghostscript\Device\DistillerParameters\AdvancedTrait
+ * @covers  \Julietgar\Ghostscript\Device\DistillerParameters\AdvancedTrait
  */
 class AdvancedTraitTest extends TestCase
 {

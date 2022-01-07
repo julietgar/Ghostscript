@@ -5,14 +5,14 @@
  * @author Daniel Schröder <daniel.schroeder@gravitymedia.de>
  */
 
-namespace GravityMedia\Ghostscript;
+namespace Julietgar\Ghostscript;
 
 use Symfony\Component\Process\ProcessUtils;
 
 /**
  * The input class.
  *
- * @package GravityMedia\Ghostscript
+ * @package Julietgar\Ghostscript
  */
 class Input
 {

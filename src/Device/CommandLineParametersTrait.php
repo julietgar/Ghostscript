@@ -5,12 +5,12 @@
  * @author Simon Schrape <s.schrape@epubli.com>
  */
 
-namespace GravityMedia\Ghostscript\Device;
+namespace Julietgar\Ghostscript\Device;
 
 /**
  * The general Ghostscript command line parameters trait.
  *
- * @package GravityMedia\Ghostscript
+ * @package Julietgar\Ghostscript
  *
  * @link    http://ghostscript.com/doc/current/Use.htm#General_switches
  */

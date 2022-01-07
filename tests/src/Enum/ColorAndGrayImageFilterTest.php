@@ -5,17 +5,17 @@
  * @author Daniel Schröder <daniel.schroeder@gravitymedia.de>
  */
 
-namespace GravityMedia\GhostscriptTest\Enum;
+namespace Julietgar\GhostscriptTest\Enum;
 
-use GravityMedia\Ghostscript\Enum\ColorAndGrayImageFilter;
+use Julietgar\Ghostscript\Enum\ColorAndGrayImageFilter;
 use PHPUnit\Framework\TestCase;
 
 /**
  * The color and grayscale image filter enum test class
  *
- * @package GravityMedia\GhostscriptTest\Enum
+ * @package Julietgar\GhostscriptTest\Enum
  *
- * @covers  \GravityMedia\Ghostscript\Enum\ColorAndGrayImageFilter
+ * @covers  \Julietgar\Ghostscript\Enum\ColorAndGrayImageFilter
  */
 class ColorAndGrayImageFilterTest extends TestCase
 {

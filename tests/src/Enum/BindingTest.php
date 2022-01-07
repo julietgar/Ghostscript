@@ -5,17 +5,17 @@
  * @author Daniel Schröder <daniel.schroeder@gravitymedia.de>
  */
 
-namespace GravityMedia\GhostscriptTest\Enum;
+namespace Julietgar\GhostscriptTest\Enum;
 
-use GravityMedia\Ghostscript\Enum\Binding;
+use Julietgar\Ghostscript\Enum\Binding;
 use PHPUnit\Framework\TestCase;
 
 /**
  * The binding enum test class
  *
- * @package GravityMedia\GhostscriptTest\Enum
+ * @package Julietgar\GhostscriptTest\Enum
  *
- * @covers  \GravityMedia\Ghostscript\Enum\Binding
+ * @covers  \Julietgar\Ghostscript\Enum\Binding
  */
 class BindingTest extends TestCase
 {

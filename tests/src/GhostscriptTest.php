@@ -5,44 +5,44 @@
  * @author Daniel Schröder <daniel.schroeder@gravitymedia.de>
  */
 
-namespace GravityMedia\GhostscriptTest;
+namespace Julietgar\GhostscriptTest;
 
-use GravityMedia\Ghostscript\Device\BoundingBoxInfo;
-use GravityMedia\Ghostscript\Device\Inkcov;
-use GravityMedia\Ghostscript\Device\NoDisplay;
-use GravityMedia\Ghostscript\Device\PdfInfo;
-use GravityMedia\Ghostscript\Device\PdfWrite;
-use GravityMedia\Ghostscript\Ghostscript;
-use GravityMedia\Ghostscript\Process\Arguments;
+use Julietgar\Ghostscript\Device\BoundingBoxInfo;
+use Julietgar\Ghostscript\Device\Inkcov;
+use Julietgar\Ghostscript\Device\NoDisplay;
+use Julietgar\Ghostscript\Device\PdfInfo;
+use Julietgar\Ghostscript\Device\PdfWrite;
+use Julietgar\Ghostscript\Ghostscript;
+use Julietgar\Ghostscript\Process\Arguments;
 use PHPUnit\Framework\TestCase;
 
 /**
  * The Ghostscript test class
  *
- * @package GravityMedia\GhostscriptTest
+ * @package Julietgar\GhostscriptTest
  *
- * @covers  \GravityMedia\Ghostscript\Ghostscript
+ * @covers  \Julietgar\Ghostscript\Ghostscript
  *
- * @uses    \GravityMedia\Ghostscript\Input
- * @uses    \GravityMedia\Ghostscript\Enum\PdfSettings
- * @uses    \GravityMedia\Ghostscript\Device\AbstractDevice
- * @uses    \GravityMedia\Ghostscript\Device\CommandLineParameters\EpsTrait
- * @uses    \GravityMedia\Ghostscript\Device\CommandLineParameters\FontTrait
- * @uses    \GravityMedia\Ghostscript\Device\CommandLineParameters\IccColorTrait
- * @uses    \GravityMedia\Ghostscript\Device\CommandLineParameters\InteractionTrait
- * @uses    \GravityMedia\Ghostscript\Device\CommandLineParameters\OtherTrait
- * @uses    \GravityMedia\Ghostscript\Device\CommandLineParameters\OutputSelectionTrait
- * @uses    \GravityMedia\Ghostscript\Device\CommandLineParameters\PageTrait
- * @uses    \GravityMedia\Ghostscript\Device\CommandLineParameters\RenderingTrait
- * @uses    \GravityMedia\Ghostscript\Device\CommandLineParameters\ResourceTrait
- * @uses    \GravityMedia\Ghostscript\Device\DistillerParametersTrait
- * @uses    \GravityMedia\Ghostscript\Device\BoundingBoxInfo
- * @uses    \GravityMedia\Ghostscript\Device\Inkcov
- * @uses    \GravityMedia\Ghostscript\Device\NoDisplay
- * @uses    \GravityMedia\Ghostscript\Device\PdfInfo
- * @uses    \GravityMedia\Ghostscript\Device\PdfWrite
- * @uses    \GravityMedia\Ghostscript\Process\Argument
- * @uses    \GravityMedia\Ghostscript\Process\Arguments
+ * @uses    \Julietgar\Ghostscript\Input
+ * @uses    \Julietgar\Ghostscript\Enum\PdfSettings
+ * @uses    \Julietgar\Ghostscript\Device\AbstractDevice
+ * @uses    \Julietgar\Ghostscript\Device\CommandLineParameters\EpsTrait
+ * @uses    \Julietgar\Ghostscript\Device\CommandLineParameters\FontTrait
+ * @uses    \Julietgar\Ghostscript\Device\CommandLineParameters\IccColorTrait
+ * @uses    \Julietgar\Ghostscript\Device\CommandLineParameters\InteractionTrait
+ * @uses    \Julietgar\Ghostscript\Device\CommandLineParameters\OtherTrait
+ * @uses    \Julietgar\Ghostscript\Device\CommandLineParameters\OutputSelectionTrait
+ * @uses    \Julietgar\Ghostscript\Device\CommandLineParameters\PageTrait
+ * @uses    \Julietgar\Ghostscript\Device\CommandLineParameters\RenderingTrait
+ * @uses    \Julietgar\Ghostscript\Device\CommandLineParameters\ResourceTrait
+ * @uses    \Julietgar\Ghostscript\Device\DistillerParametersTrait
+ * @uses    \Julietgar\Ghostscript\Device\BoundingBoxInfo
+ * @uses    \Julietgar\Ghostscript\Device\Inkcov
+ * @uses    \Julietgar\Ghostscript\Device\NoDisplay
+ * @uses    \Julietgar\Ghostscript\Device\PdfInfo
+ * @uses    \Julietgar\Ghostscript\Device\PdfWrite
+ * @uses    \Julietgar\Ghostscript\Process\Argument
+ * @uses    \Julietgar\Ghostscript\Process\Arguments
  */
 class GhostscriptTest extends TestCase
 {
