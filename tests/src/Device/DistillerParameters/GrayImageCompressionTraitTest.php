@@ -7,6 +7,7 @@
 
 namespace Julietgar\GhostscriptTest\Device\DistillerParameters;
 
+use Julietgar\Ghostscript\Device\DistillerParameters\ColorConversionTrait;
 use Julietgar\Ghostscript\Device\DistillerParameters\GrayImageCompressionTrait;
 use Julietgar\Ghostscript\Enum\ColorAndGrayImageFilter;
 use Julietgar\Ghostscript\Enum\ImageDownsampleType;
@@ -140,6 +141,8 @@ class GrayImageCompressionTraitTest extends TestCase
      */
     public function testGrayImageDownsampleTypeArgumentThrowsException()
     {
+        $this->expectExceptionMessage('Invalid grayscale image downsample type argument');
+
         /** @var GrayImageCompressionTrait $trait */
         $trait = $this->getMockForTrait(GrayImageCompressionTrait::class);
 
@@ -182,6 +185,8 @@ class GrayImageCompressionTraitTest extends TestCase
      */
     public function testGrayImageFilterArgumentThrowsException()
     {
+        $this->expectExceptionMessage('Invalid grayscale image filter argument');
+
         /** @var GrayImageCompressionTrait $trait */
         $trait = $this->getMockForTrait(GrayImageCompressionTrait::class);
 

@@ -7,6 +7,7 @@
 
 namespace Julietgar\GhostscriptTest\Device;
 
+use Julietgar\Ghostscript\Device\DistillerParameters\ColorConversionTrait;
 use Julietgar\Ghostscript\Device\PdfInfo;
 use Julietgar\Ghostscript\Ghostscript;
 use Julietgar\Ghostscript\Process\Arguments;
@@ -79,6 +80,8 @@ class PdfInfoTest extends TestCase
      */
     public function testProcessCreationThrowsExceptionOnMissingInputFile()
     {
+        $this->expectExceptionMessage('Input file does not exist');
+
         $ghostscript = new Ghostscript();
         $arguments = new Arguments();
         $pdfInfoPath = __DIR__ . '/../../data/pdf_info.ps';

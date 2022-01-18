@@ -7,6 +7,7 @@
 
 namespace Julietgar\GhostscriptTest\Device;
 
+use Julietgar\Ghostscript\Device\DistillerParameters\ColorConversionTrait;
 use Julietgar\Ghostscript\Device\DistillerParametersTrait;
 use Julietgar\Ghostscript\Enum\AutoRotatePages;
 use Julietgar\Ghostscript\Enum\Binding;
@@ -101,6 +102,8 @@ class DistillerParametersTraitTest extends TestCase
      */
     public function testAutoRotatePagesArgumentThrowsException()
     {
+        $this->expectExceptionMessage('Invalid auto rotate pages argument');
+
         /** @var DistillerParametersTrait $trait */
         $trait = $this->getMockForTrait('Julietgar\Ghostscript\Device\DistillerParametersTrait');
 
@@ -121,6 +124,8 @@ class DistillerParametersTraitTest extends TestCase
      */
     public function testBindingArgumentThrowsException()
     {
+        $this->expectExceptionMessage('Invalid binding argument');
+
         /** @var DistillerParametersTrait $trait */
         $trait = $this->getMockForTrait('Julietgar\Ghostscript\Device\DistillerParametersTrait');
 
